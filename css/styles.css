@@ -1,3 +1,9 @@
-body {
-    background-color: blue;
+.body {
+    margin: 0em;
+}
+.title_heading {
+    margin-top: 0em;
+}
+.title {
+    background: #9BF4D5;
 }
