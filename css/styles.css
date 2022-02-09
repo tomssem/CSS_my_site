@@ -1,9 +1,32 @@
 .body {
-    margin: 0em;
+    margin: 0px;
 }
+
+.top-container {
+    margin-top: 0px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    background: #9BF4D5;
+    padding: 20px;
+}
+
+.middle-container {
+    margin-left: 260px;
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    background: red;
+}
+
+.bottom-container {
+    margin-left: 500px;
+    height: 200px;
+    width: 200px;
+    border: 10px solid;
+    background: yellow;
+}
+
 .title_heading {
     margin-top: 0em;
-}
-.title {
-    background: #9BF4D5;
 }
