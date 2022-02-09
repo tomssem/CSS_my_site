@@ -17,6 +17,7 @@ h1 {
     margin: 40px auto 0px auto;
     font-family: 'Sacramento', cursive;
     color: #91C788;
+    line-height: 2;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
     margin: 0px auto 20px auto;
     font-family: 'Montserrat', sans-serif;
     color: #91C788;
+    font-weight: normal;
 }
 
 h3 {
@@ -33,15 +35,11 @@ h3 {
     color: #52734D;
 }
 
-a:link {
-    color: #52734D;
-}
 
 .top-container {
     margin-top: 0px;
     padding-top: 40px;
     background: #DDFFBC;
-
     position: relative;
 }
 
@@ -49,10 +47,11 @@ a:link {
     margin-top: 20px;
 }
 
-.middle-container {
-}
-
-.bottom-container {
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
 }
 
 .top-cloud {
@@ -75,19 +74,75 @@ a:link {
 }
 
 .selfie-pic {
-    width: 200px;
+    width: 20%;
     height: auto;
     border-radius: 50%;
 }
 
 .ai-pic {
-    width: 200px;
+    width: 20%;
     height: auto;
     scale: 10%;
+    float: left;
+    padding-right: 2rem;
 }
 
 .software-pic {
-    width: 200px;
+    width: 20%;
     height: auto;
     border-radius: 50%;
+    float: right;
+    padding-left: 2rem;
+}
+
+.horizontal-rule {
+    width: 5%;
+    border-width: 0.5rem;
+    border-style: dotted;
+    border-top: 0;
+    border-color: grey;
+    margin: 2rem auto 2rem auto;
+}
+
+.bottom-container {
+    background-color: #91C788;
+    padding: 3rem;
+}
+
+.btn {
+    background-image: linear-gradient(#91C788, #52734D);
+    padding: 0.5em;
+    margin: 1.5em auto 1.5em auto;
+    width: 20%;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.btn:link {
+    color: #FEFFDE;
+}
+
+.footer-link {
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 2em 1.5em 3em 1.5em;
+}
+
+a:link {
+    color: #52734D;
+}
+
+.footer-link:link {
+    color: #52734D;
+}
+
+.footer-link:visited {
+    color: #52734D;
+}
+
+.copyright {
+    padding: 2em 2em 0.5em 2em;
+    color: #FEFFDE;
 }
